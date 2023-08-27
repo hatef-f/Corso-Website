@@ -1,0 +1,59 @@
+// Font
+$font-family-sans-serif: "Montserrat", sans-serif;
+
+// Color
+$primary: #f8b547;
+$secondary: #35353a;
+$light: #fbf9f5;
+$body-bg: $light; // that's the background color for the body
+
+// Spacing
+$spacer: 1rem !default;
+$spacers: (
+  0: 0,
+  1: $spacer * 0.25,
+  2: $spacer * 0.5,
+  3: $spacer,
+  4: $spacer * 1.5,
+  5: $spacer * 3,
+  6: $spacer * 6,
+  7: $spacer * 8,
+  8: $spacer * 12,
+) !default;
+
+// Setting negative margin
+$enable-negative-margins: true; //  mt-n5 Example
+
+// Adds a little bit of a margin to the bottom of every heading\
+$heading-margin-bottom: $spacer * 1;
+
+// Setting headings font weight
+$headings-font-weight: bold;
+
+// Setting the base line-height
+$line-height-base: 1.7;
+
+// Navbar
+$navbar-nav-link-padding-x: 0.8rem;
+$navbar-padding-y: 1rem;
+$navbar-dark-color: #fff;
+
+// Buttons
+$button-radius: 50px;
+$button-padding-x: 30px;
+$button-padding-y: 10px;
+
+$navbar-toggler-border-radius: 5px; // We don't want 50px radius on just a hamburger menu , it's just to round!!!
+
+$btn-border-radius: $button-radius;
+$btn-border-radius-sm: $button-radius;
+$btn-border-radius-lg: $button-radius;
+$btn-padding-y: $button-padding-y;
+$btn-padding-y-sm: $button-padding-y;
+$btn-padding-y-lg: $button-padding-y;
+$btn-padding-x: $button-padding-x;
+$btn-padding-x-sm: $button-padding-x;
+$btn-padding-x-lg: $button-padding-x;
+
+// Customize above the import
+@import "../node_modules/bootstrap/scss/bootstrap.scss";
